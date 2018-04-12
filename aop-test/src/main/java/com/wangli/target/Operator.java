@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 //@Component
 public class Operator {
 
-    @Description(value = "nice!")
+    @Description(value = "调用testAop方法")
     public String testAop() {
         return "SUCCESS";
     }
