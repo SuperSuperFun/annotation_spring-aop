@@ -3,31 +3,31 @@ package com.wangli.util.entity;
 import java.math.BigDecimal;
 
 public class LongitudeAndLatitude {
-    private BigDecimal lng;
-    private BigDecimal lat;
+    private Double lng;
+    private Double lat;
 
     public LongitudeAndLatitude() {
 
     }
 
-    public LongitudeAndLatitude(BigDecimal lng, BigDecimal lat) {
+    public LongitudeAndLatitude(Double lng, Double lat) {
         this.lng = lng;
         this.lat = lat;
     }
 
-    public BigDecimal getLng() {
+    public Double getLng() {
         return lng;
     }
 
-    public void setLng(BigDecimal lng) {
+    public void setLng(Double lng) {
         this.lng = lng;
     }
 
-    public BigDecimal getLat() {
+    public Double getLat() {
         return lat;
     }
 
-    public void setLat(BigDecimal lat) {
+    public void setLat(Double lat) {
         this.lat = lat;
     }
 
