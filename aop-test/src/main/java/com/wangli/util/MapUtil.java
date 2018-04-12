@@ -11,7 +11,7 @@ import java.net.URLConnection;
 public class MapUtil {
     public static void main(String[] args) {
         try {
-            URL url = new URL("http://api.map.baidu.com/direction/v1/routematrix?output=json&origins=天安门&destinations=北京大学&ak=0TTIpxL9Vx7IQPYR67j3SpgjIH8Dgb32");
+            URL url = new URL("http://api.map.baidu.com/direction/v1/routematrix?output=json&origins=天安门&destinations=北京大学&ak=******");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             //设置连接超时时间
             connection.setConnectTimeout(5000);
